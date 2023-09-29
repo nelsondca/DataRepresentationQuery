@@ -4,4 +4,4 @@ const PartB = (myValue) =>{
 }
 
 PartB();//calling the method 
-console.log(PartB("something"));
+console.log(PartB("something"));//outputing to the console 
