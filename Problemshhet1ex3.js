@@ -24,20 +24,20 @@ let deleteTask = (task)=>{//passing a string as paramater called task
     let index = myTasks.indexOf(task);//finidng the index of a task
 
     if(index > -1){//creating an if statement to build a condition
-    myTasks.splice(index,1);//
-         console.log("Task:" + task + "has been removed from the array.")
+    myTasks.splice(index,1);//method that allows to modify an array
+         console.log("Task:" + task + "has been removed from the array.")//printing the current status of the array list in case of deletion
     }else{
-        console.log("Task:" + task + "not found in Tasks!");
+        console.log("Task:" + task + "not found in Tasks!");//printing not found
     
     }
-    return myTasks.length;
+    return myTasks.length;// returns the size of the array of strings
 
 }
 
-addTask("learn js!");
+addTask("learn js!");//adding a task
 
-addTask("learn REACT!");
+addTask("learn REACT!");//adding a task
 
-listAllTask();
+listAllTask();//calling the method list to see how many elements are in the array
 
-deleteTask("Learn js!");
+deleteTask("Learn js!");//delete an element of the array
