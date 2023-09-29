@@ -4,5 +4,8 @@ const PartA = ()=>{
     return "Data Representation & Querying”
 }
 
-PartA(); // calling the method part A
-console.log(PartA());//outputing into the console
+// calling the method part A
+PartA(); 
+
+//outputting into the console
+console.log(PartA()); 
